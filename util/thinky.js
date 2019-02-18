@@ -1,6 +1,8 @@
 const thinky = require('thinky')({
     host: "localhost",
-    port: 3343,
+    port: 28015,
+    password: "vault",
+    db: "vault"
 });
 
 module.exports = thinky;

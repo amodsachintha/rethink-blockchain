@@ -10,18 +10,19 @@ const peer_list = [];
 
 let Block = thinky.createModel("Block",{
     id: type.string(),
-    index: type.integer(),
+    index: type.number().integer(),
     previousHash: type.string(),
     timestamp: type.string(),
     data: {
         part_id: type.string(),
         part_name: type.string(),
         part_url: type.string(),
-        part_host: type.string,
+        part_host: type.string(),
     },
     hash: type.string(),
 });
 
+module.exports = {Block};
 
 
 
