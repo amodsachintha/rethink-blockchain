@@ -4,7 +4,7 @@
   "description": "blockchain app on rethinkdb storage",
   "main": "index.js",
   "scripts": {
-    "ip" : "ifconfig | grep \"inet addr\"",
+    "ip": "ifconfig | grep \"inet addr\"",
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
     "compression": "^1.7.3",
     "crypto-js": "^3.1.9-1",
     "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "portscanner": "^2.2.0",
     "rethinkdb": "^2.3.3",
     "socket.io": "^2.2.0",
     "socket.io-client": "^2.2.0",
